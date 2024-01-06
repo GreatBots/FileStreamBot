@@ -103,9 +103,13 @@
   ],
   "stack": "heroku-22",
   "formation": {
-    "Basic": {
+    "web": {
       "quantity": 1,
       "size": "eco"
     }
+  },
+  "worker": {
+      "quantity": 1,
+      "size": "eco"
   }
 }
